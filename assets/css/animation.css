@@ -1,0 +1,22 @@
+/* animation.css */
+
+/* @keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+} */
+
+@keyframes slide{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  0%{
+    transform: translateY(0px);
+  }
+}
